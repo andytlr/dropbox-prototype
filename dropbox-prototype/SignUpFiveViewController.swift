@@ -1,5 +1,5 @@
 //
-//  SignInRootViewController.swift
+//  SignUpFiveViewController.swift
 //  dropbox-prototype
 //
 //  Created by Andy Taylor on 10/20/15.
@@ -8,14 +8,12 @@
 
 import UIKit
 
-class SignInRootViewController: UIViewController {
+class SignUpFiveViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        performSegueWithIdentifier("firstSegue", sender: self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +21,9 @@ class SignInRootViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func tapBackButton(sender: AnyObject) {
+        dismissViewControllerAnimated(false, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

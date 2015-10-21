@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2055FF21BD747E00023BF50 /* SignUpTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FF11BD747E00023BF50 /* SignUpTermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C22FE6791BD71DBF0076B174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22FE6781BD71DBF0076B174 /* AppDelegate.swift */; };
 		C22FE67B1BD71DBF0076B174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22FE67A1BD71DBF0076B174 /* ViewController.swift */; };
 		C22FE67E1BD71DBF0076B174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22FE67C1BD71DBF0076B174 /* Main.storyboard */; };
@@ -14,9 +15,15 @@
 		C22FE6831BD71DBF0076B174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22FE6811BD71DBF0076B174 /* LaunchScreen.storyboard */; };
 		C236FAC61BD72CDE0082B3E1 /* SignUpRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAC51BD72CDE0082B3E1 /* SignUpRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C236FAC81BD72CF90082B3E1 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C236FACA1BD742650082B3E1 /* SignUpOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAC91BD742650082B3E1 /* SignUpOneViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C236FACC1BD744170082B3E1 /* SignUpTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FACB1BD744170082B3E1 /* SignUpTwoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C236FACE1BD744240082B3E1 /* SignUpThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FACD1BD744240082B3E1 /* SignUpThreeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C236FAD01BD744300082B3E1 /* SignUpFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FACF1BD744300082B3E1 /* SignUpFourViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C236FAD21BD7443A0082B3E1 /* SignUpFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAD11BD7443A0082B3E1 /* SignUpFiveViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2055FF11BD747E00023BF50 /* SignUpTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTermsViewController.swift; sourceTree = "<group>"; };
 		C22FE6751BD71DBF0076B174 /* dropbox-prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dropbox-prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22FE6781BD71DBF0076B174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C22FE67A1BD71DBF0076B174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +33,11 @@
 		C22FE6841BD71DBF0076B174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C236FAC51BD72CDE0082B3E1 /* SignUpRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpRootViewController.swift; path = ../SignUpRootViewController.swift; sourceTree = "<group>"; };
 		C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		C236FAC91BD742650082B3E1 /* SignUpOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpOneViewController.swift; sourceTree = "<group>"; };
+		C236FACB1BD744170082B3E1 /* SignUpTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTwoViewController.swift; sourceTree = "<group>"; };
+		C236FACD1BD744240082B3E1 /* SignUpThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpThreeViewController.swift; sourceTree = "<group>"; };
+		C236FACF1BD744300082B3E1 /* SignUpFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpFourViewController.swift; sourceTree = "<group>"; };
+		C236FAD11BD7443A0082B3E1 /* SignUpFiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpFiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 			isa = PBXGroup;
 			children = (
 				C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */,
+				C236FAC91BD742650082B3E1 /* SignUpOneViewController.swift */,
+				C236FACB1BD744170082B3E1 /* SignUpTwoViewController.swift */,
+				C236FACD1BD744240082B3E1 /* SignUpThreeViewController.swift */,
+				C236FACF1BD744300082B3E1 /* SignUpFourViewController.swift */,
+				C236FAD11BD7443A0082B3E1 /* SignUpFiveViewController.swift */,
+				C2055FF11BD747E00023BF50 /* SignUpTermsViewController.swift */,
 				C236FAC51BD72CDE0082B3E1 /* SignUpRootViewController.swift */,
 				C22FE6781BD71DBF0076B174 /* AppDelegate.swift */,
 				C22FE67A1BD71DBF0076B174 /* ViewController.swift */,
@@ -142,9 +160,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C236FAC81BD72CF90082B3E1 /* SignInRootViewController.swift in Sources */,
+				C236FAD21BD7443A0082B3E1 /* SignUpFiveViewController.swift in Sources */,
+				C236FACC1BD744170082B3E1 /* SignUpTwoViewController.swift in Sources */,
+				C236FAD01BD744300082B3E1 /* SignUpFourViewController.swift in Sources */,
+				C236FACA1BD742650082B3E1 /* SignUpOneViewController.swift in Sources */,
 				C22FE67B1BD71DBF0076B174 /* ViewController.swift in Sources */,
 				C22FE6791BD71DBF0076B174 /* AppDelegate.swift in Sources */,
 				C236FAC61BD72CDE0082B3E1 /* SignUpRootViewController.swift in Sources */,
+				C2055FF21BD747E00023BF50 /* SignUpTermsViewController.swift in Sources */,
+				C236FACE1BD744240082B3E1 /* SignUpThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
