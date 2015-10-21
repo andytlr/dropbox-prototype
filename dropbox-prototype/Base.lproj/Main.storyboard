@@ -29,7 +29,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="368"/>
+            <point key="canvasLocation" x="30" y="742"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ggj-f1-70D">
@@ -56,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OmQ-qI-3ZP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="530" y="368"/>
+            <point key="canvasLocation" x="398" y="742"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rxp-Hp-Q3B">
@@ -90,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VhJ-Yk-bDr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="368"/>
+            <point key="canvasLocation" x="766" y="742"/>
         </scene>
         <!--Sign Up Root View Controller-->
         <scene sceneID="Dpk-oY-ygW">
@@ -435,10 +435,10 @@
             </objects>
             <point key="canvasLocation" x="3844" y="368"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up Action Sheet View Controller-->
         <scene sceneID="J9o-eH-J6i">
             <objects>
-                <viewController id="bF6-HI-0i7" sceneMemberID="viewController">
+                <viewController id="bF6-HI-0i7" customClass="SignUpActionSheetViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Osr-T4-noa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
