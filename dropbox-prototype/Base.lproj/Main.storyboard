@@ -461,6 +461,13 @@
                                     <action selector="dismissActionSheet:" destination="bF6-HI-0i7" eventType="touchUpInside" id="GqW-7r-O9E"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gXa-up-Psn">
+                                <rect key="frame" x="0.0" y="459" width="314" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="hFX-yW-QOX" kind="modal" modalTransitionStyle="flipHorizontal" id="m9s-jJ-fXK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -482,11 +489,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="r7L-EW-Vww">
-                                <rect key="frame" x="239" y="12" width="82" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wcr-F3-ghh">
+                                <rect key="frame" x="255" y="20" width="65" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="tapDonebutton:" destination="XNc-Z4-XI1" eventType="touchUpInside" id="avh-Zv-aJN"/>
+                                    <action selector="tapDonebutton:" destination="XNc-Z4-XI1" eventType="touchUpInside" id="Oh4-9H-Fvv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -576,7 +583,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="byS-og-SNT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5730" y="1113"/>
+            <point key="canvasLocation" x="5782" y="1113"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ojp-kw-jTM">
