@@ -23,6 +23,13 @@
                                     <segue destination="pF3-Tn-Vzo" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="ZbT-bg-VRx"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5gk-zj-v6t">
+                                <rect key="frame" x="0.0" y="432" width="320" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="FPg-AC-FjN" kind="modal" id="NS6-jW-tXb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -189,6 +196,13 @@
                                     <action selector="tapBackButton:" destination="Y3Q-HL-VqF" eventType="touchUpInside" id="LKc-h7-su2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VYJ-OZ-96M">
+                                <rect key="frame" x="0.0" y="184" width="320" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="EIs-Sq-d6L" kind="modal" modalTransitionStyle="crossDissolve" id="iGU-6Z-TEQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -237,7 +251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79h-YQ-xVt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2699" y="1959"/>
+            <point key="canvasLocation" x="2707" y="1959"/>
         </scene>
         <!--Sign In Action Sheet View Controller-->
         <scene sceneID="2T0-gx-pRQ">
@@ -981,7 +995,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="YGv-7S-nOf"/>
-        <segue reference="AkW-Rq-DP5"/>
+        <segue reference="v2L-QT-Z5L"/>
         <segue reference="Iv2-fZ-Efb"/>
+        <segue reference="xDt-WZ-cfA"/>
     </inferredMetricsTieBreakers>
 </document>
