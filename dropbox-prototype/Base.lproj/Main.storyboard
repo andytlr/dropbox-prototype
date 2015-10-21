@@ -570,6 +570,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bmN-4Y-JAA">
+                                        <rect key="frame" x="0.0" y="689" width="320" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="FPg-AC-FjN" kind="modal" modalTransitionStyle="flipHorizontal" id="AkW-Rq-DP5"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -806,6 +813,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JkF-hc-Ob0">
+                                        <rect key="frame" x="0.0" y="690" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="FPg-AC-FjN" kind="modal" modalTransitionStyle="flipHorizontal" id="t1k-Ue-poD"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -967,6 +981,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="YGv-7S-nOf"/>
+        <segue reference="AkW-Rq-DP5"/>
         <segue reference="Iv2-fZ-Efb"/>
     </inferredMetricsTieBreakers>
 </document>
