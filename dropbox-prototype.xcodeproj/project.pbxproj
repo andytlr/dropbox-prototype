@@ -12,6 +12,7 @@
 		C2055FF61BD7E22E0023BF50 /* SignInTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FF51BD7E22E0023BF50 /* SignInTwoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C2055FF81BD7E2360023BF50 /* SignInActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FF71BD7E2360023BF50 /* SignInActionSheetViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C2055FFA1BD7E44D0023BF50 /* SignUpActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FF91BD7E44D0023BF50 /* SignUpActionSheetViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C2055FFC1BD7EA720023BF50 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FFB1BD7EA720023BF50 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C22FE6791BD71DBF0076B174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22FE6781BD71DBF0076B174 /* AppDelegate.swift */; };
 		C22FE67B1BD71DBF0076B174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22FE67A1BD71DBF0076B174 /* ViewController.swift */; };
 		C22FE67E1BD71DBF0076B174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22FE67C1BD71DBF0076B174 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		C2055FF51BD7E22E0023BF50 /* SignInTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInTwoViewController.swift; sourceTree = "<group>"; };
 		C2055FF71BD7E2360023BF50 /* SignInActionSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInActionSheetViewController.swift; sourceTree = "<group>"; };
 		C2055FF91BD7E44D0023BF50 /* SignUpActionSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpActionSheetViewController.swift; sourceTree = "<group>"; };
+		C2055FFB1BD7EA720023BF50 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C22FE6751BD71DBF0076B174 /* dropbox-prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dropbox-prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22FE6781BD71DBF0076B174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C22FE67A1BD71DBF0076B174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				C22FE6781BD71DBF0076B174 /* AppDelegate.swift */,
 				C22FE67A1BD71DBF0076B174 /* ViewController.swift */,
 				C22FE67C1BD71DBF0076B174 /* Main.storyboard */,
+				C2055FFB1BD7EA720023BF50 /* SettingsViewController.swift */,
 				C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */,
 				C2055FF31BD7E2260023BF50 /* SignInOneViewController.swift */,
 				C2055FF51BD7E22E0023BF50 /* SignInTwoViewController.swift */,
@@ -179,6 +182,7 @@
 				C236FAD01BD744300082B3E1 /* SignUpFourViewController.swift in Sources */,
 				C236FACA1BD742650082B3E1 /* SignUpOneViewController.swift in Sources */,
 				C22FE67B1BD71DBF0076B174 /* ViewController.swift in Sources */,
+				C2055FFC1BD7EA720023BF50 /* SettingsViewController.swift in Sources */,
 				C22FE6791BD71DBF0076B174 /* AppDelegate.swift in Sources */,
 				C236FAC61BD72CDE0082B3E1 /* SignUpRootViewController.swift in Sources */,
 				C2055FF41BD7E2260023BF50 /* SignInOneViewController.swift in Sources */,
