@@ -12,6 +12,8 @@
 		C22FE67E1BD71DBF0076B174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22FE67C1BD71DBF0076B174 /* Main.storyboard */; };
 		C22FE6801BD71DBF0076B174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22FE67F1BD71DBF0076B174 /* Assets.xcassets */; };
 		C22FE6831BD71DBF0076B174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22FE6811BD71DBF0076B174 /* LaunchScreen.storyboard */; };
+		C236FAC61BD72CDE0082B3E1 /* SignUpRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAC51BD72CDE0082B3E1 /* SignUpRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C236FAC81BD72CF90082B3E1 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C22FE67F1BD71DBF0076B174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C22FE6821BD71DBF0076B174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C22FE6841BD71DBF0076B174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C236FAC51BD72CDE0082B3E1 /* SignUpRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpRootViewController.swift; path = ../SignUpRootViewController.swift; sourceTree = "<group>"; };
+		C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		C22FE6771BD71DBF0076B174 /* dropbox-prototype */ = {
 			isa = PBXGroup;
 			children = (
+				C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */,
+				C236FAC51BD72CDE0082B3E1 /* SignUpRootViewController.swift */,
 				C22FE6781BD71DBF0076B174 /* AppDelegate.swift */,
 				C22FE67A1BD71DBF0076B174 /* ViewController.swift */,
 				C22FE67C1BD71DBF0076B174 /* Main.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C236FAC81BD72CF90082B3E1 /* SignInRootViewController.swift in Sources */,
 				C22FE67B1BD71DBF0076B174 /* ViewController.swift in Sources */,
 				C22FE6791BD71DBF0076B174 /* AppDelegate.swift in Sources */,
+				C236FAC61BD72CDE0082B3E1 /* SignUpRootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +292,7 @@
 				C22FE6891BD71DBF0076B174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="pF3-Tn-Vzo" kind="modal" modalTransitionStyle="crossDissolve" id="ZbT-bg-VRx"/>
+                                    <segue destination="pF3-Tn-Vzo" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="ZbT-bg-VRx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -47,7 +47,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="7dc-DK-iSY" kind="modal" modalTransitionStyle="crossDissolve" id="Nj0-8V-O1Z"/>
+                                    <segue destination="7dc-DK-iSY" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="Nj0-8V-O1Z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="898" y="368"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up Root View Controller-->
         <scene sceneID="Dpk-oY-ygW">
             <objects>
-                <viewController id="9AS-XD-4EN" sceneMemberID="viewController">
+                <viewController id="9AS-XD-4EN" customClass="SignUpRootViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O7f-b4-tRh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
                                 <rect key="frame" x="0.0" y="467" width="320" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="FnV-bF-JJg" kind="push" id="jmw-RJ-NDq"/>
+                                    <segue destination="FnV-bF-JJg" kind="push" identifier="firstSegue" animates="NO" id="jmw-RJ-NDq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -130,7 +130,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="VuU-7m-LB1" kind="modal" modalTransitionStyle="crossDissolve" id="Nuw-I1-zxs"/>
+                                    <segue destination="VuU-7m-LB1" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="Nuw-I1-zxs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -159,7 +159,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="7OU-QU-0kc" kind="modal" modalTransitionStyle="crossDissolve" id="vs5-ve-VtK"/>
+                                    <segue destination="7OU-QU-0kc" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="vs5-ve-VtK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -187,7 +187,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="iZQ-l2-Gn4" kind="modal" modalTransitionStyle="crossDissolve" id="lrv-9V-Nck"/>
+                                    <segue destination="iZQ-l2-Gn4" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="lrv-9V-Nck"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -215,7 +215,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="24y-Xu-hrv" kind="modal" modalTransitionStyle="crossDissolve" id="wcF-fW-EVK"/>
+                                    <segue destination="24y-Xu-hrv" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="wcF-fW-EVK"/>
                                 </connections>
                             </button>
                         </subviews>
