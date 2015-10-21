@@ -505,7 +505,7 @@
             </objects>
             <point key="canvasLocation" x="4614" y="368"/>
         </scene>
-        <!--View Controller-->
+        <!--Favorites-->
         <scene sceneID="NV6-3Z-XmB">
             <objects>
                 <viewController id="lRq-Oc-rOk" sceneMemberID="viewController">
@@ -514,13 +514,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="LQ9-ww-MDC"/>
+                    <navigationItem key="navigationItem" title="Favorites" id="LQ9-ww-MDC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hHg-cA-TVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5572" y="2675"/>
         </scene>
-        <!--View Controller-->
+        <!--Photos-->
         <scene sceneID="Hm6-lp-6cQ">
             <objects>
                 <viewController id="fBg-dY-FZQ" sceneMemberID="viewController">
@@ -529,13 +529,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="tZg-0r-Cbo"/>
+                    <navigationItem key="navigationItem" title="Photos" id="tZg-0r-Cbo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Khf-Pq-V7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5998" y="2675"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings-->
         <scene sceneID="uDl-Gj-g4V">
             <objects>
                 <viewController id="v6w-Lq-UoY" sceneMemberID="viewController">
@@ -544,13 +544,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Lem-vX-hGv"/>
+                    <navigationItem key="navigationItem" title="Settings" id="Lem-vX-hGv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gCD-8g-mtB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6438" y="2675"/>
         </scene>
-        <!--View Controller-->
+        <!--Files-->
         <scene sceneID="Ly8-5M-bM6">
             <objects>
                 <viewController id="E2F-hM-Sxn" sceneMemberID="viewController">
@@ -559,7 +559,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Afz-sG-rAk"/>
+                    <navigationItem key="navigationItem" title="Files" id="Afz-sG-rAk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q0K-Oe-FdW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -621,11 +621,11 @@
             </objects>
             <point key="canvasLocation" x="1492" y="1125"/>
         </scene>
-        <!--Item 1-->
+        <!--Files-->
         <scene sceneID="u6h-4F-gck">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z2w-5K-HCs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="b7B-ez-HQd"/>
+                    <tabBarItem key="tabBarItem" title="Files" image="files_tab" id="b7B-ez-HQd"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rsG-FB-vLy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -640,11 +640,11 @@
             </objects>
             <point key="canvasLocation" x="5150" y="1945"/>
         </scene>
-        <!--Item 2-->
+        <!--Favorites-->
         <scene sceneID="T0o-U7-d0Y">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nRU-Ng-heU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="s1z-Fu-6Rk"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="favorites_tab" id="s1z-Fu-6Rk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Zv-kL-PhT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -659,11 +659,11 @@
             </objects>
             <point key="canvasLocation" x="5572" y="1945"/>
         </scene>
-        <!--Item-->
+        <!--Photos-->
         <scene sceneID="Nq8-Hw-WEz">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kaU-gN-hHN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="rKt-c8-FNj"/>
+                    <tabBarItem key="tabBarItem" title="Photos" image="photos_tab" id="rKt-c8-FNj"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eyi-c4-1wV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -678,11 +678,11 @@
             </objects>
             <point key="canvasLocation" x="5998" y="1945"/>
         </scene>
-        <!--Item-->
+        <!--Settings-->
         <scene sceneID="dBH-mT-6rF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uZb-j3-NVJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="UYQ-35-jrH"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings_tab" id="UYQ-35-jrH"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SkM-Lg-BQV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -705,7 +705,11 @@
         <image name="create4" width="320" height="568"/>
         <image name="create5" width="320" height="568"/>
         <image name="create_account" width="320" height="568"/>
+        <image name="favorites_tab" width="30" height="30"/>
+        <image name="files_tab" width="30" height="30"/>
         <image name="logged_out" width="320" height="568"/>
+        <image name="photos_tab" width="30" height="30"/>
+        <image name="settings_tab" width="30" height="30"/>
         <image name="sign_in1" width="320" height="568"/>
         <image name="sign_in2" width="320" height="568"/>
         <image name="sign_in3" width="320" height="568"/>
