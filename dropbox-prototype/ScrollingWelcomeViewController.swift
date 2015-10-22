@@ -12,11 +12,11 @@ class ScrollingWelcomeViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     
-    @IBOutlet weak var tempLabel: UILabel!
-    
+    @IBOutlet weak var pageControl: UIPageControl!
     func updatePage() {
         let offset = scrollView.contentOffset.x / scrollView.frame.size.width
-        tempLabel.text = "\(offset)"
+        let pageIndex = Int(offset)
+        pageControl.currentPage = pageIndex
     }
     
     override func viewDidLoad() {
