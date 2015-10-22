@@ -10,11 +10,22 @@ import UIKit
 
 class SignUpOneViewController: UIViewController {
 
+    @IBOutlet weak var createButton: UIImageView!
 
+    @IBOutlet weak var firstNameInput: UITextField!
+    
+    @IBOutlet weak var lastNameInput: UITextField!
+    
+    @IBOutlet weak var emailAddressInput: UITextField!
+    
+    @IBOutlet weak var passwordInput: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        createButton.alpha = 0
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +37,11 @@ class SignUpOneViewController: UIViewController {
         navigationController!.popViewControllerAnimated(true)
     }
 
+    @IBAction func passwordInputChanged(sender: AnyObject) {
+        if firstNameInput != "" && lastNameInput != "" && emailAddressInput != "" && passwordInput != "" {
+            createButton.alpha = 1
+        }
+    }
     /*
     // MARK: - Navigation
 
