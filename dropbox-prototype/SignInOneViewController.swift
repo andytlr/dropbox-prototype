@@ -10,10 +10,19 @@ import UIKit
 
 class SignInOneViewController: UIViewController {
 
+    @IBOutlet weak var emailInput: UITextField!
+    
+    @IBOutlet weak var passwordInput: UITextField!
+    
+    @IBOutlet weak var signInActiveOverlay: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        emailInput.becomeFirstResponder()
+        signInActiveOverlay.alpha = 0
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,6 +34,11 @@ class SignInOneViewController: UIViewController {
         navigationController!.popViewControllerAnimated(true)
     }
 
+    @IBAction func passwordFieldChanged(sender: AnyObject) {
+        if passwordInput.text != "" && emailInput.text != "" {
+            signInActiveOverlay.alpha = 1
+        }
+    }
     /*
     // MARK: - Navigation
 
