@@ -26,6 +26,7 @@ class SignUpOneViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         createButton.alpha = 0
+        firstNameInput.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,6 +43,25 @@ class SignUpOneViewController: UIViewController {
             createButton.alpha = 1
         }
     }
+    
+    @IBAction func tapCreateAccount(sender: AnyObject) {
+        let alertController = UIAlertController(title: nil, message: "Before you can complete your registration, you must accept the Dropbox Terms of Service.", preferredStyle: .ActionSheet)
+        
+        let forgotPasswordAction = UIAlertAction(title: "I Agree", style: .Default) { (action) in
+            self.performSegueWithIdentifier("agreeToTermsLogIn", sender: self)
+        }
+        alertController.addAction(forgotPasswordAction)
+        
+        let singleSignOnAction = UIAlertAction(title: "View Terms", style: .Default) { (action) in
+            self.performSegueWithIdentifier("showTermsModal", sender: self)
+        }
+        alertController.addAction(singleSignOnAction)
+        
+        self.presentViewController(alertController, animated: true) {
+            // ...
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

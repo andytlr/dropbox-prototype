@@ -2,7 +2,7 @@
 
 Introduction to Navigation Controllers and Tab Bar Controllers.
 
-`Time spent: 8 hours`
+`Time spent: 8.5 hours`
 
 ## Requirements
 
@@ -21,12 +21,12 @@ Introduction to Navigation Controllers and Tab Bar Controllers.
   - [x] Enable Sign In button when both inputs have something in them
   - [x] Add UIAlertController Action Sheet and get rid of that fake screen.
 - Optional: Rebuild Sign Up so it isn't an image.
-  - [ ] Replace inputs with UITextFields
-  - [ ] Remove other sign up screens
-  - [ ] Enable Create button when all inputs have a value
+  - [x] Replace inputs with UITextFields
+  - [x] Remove other sign up screens
+  - [x] Enable Create button when all inputs have a value
   - [ ] Change password strength indicator based on length
-  - [ ] Replace action sheet with UIAlertController
-  - [ ] Hook View Terms up to terms screen.
+  - [x] Replace action sheet with UIAlertController
+  - [x] Hook View Terms up to terms screen.
 - Optional: You should be able to swipe through the welcome screens instead of just tapping them.
   - [x] Create a custom free form view controller that is wide enough for 3 screens.
   - [x] Add a UIScrollView with paging enabled.
