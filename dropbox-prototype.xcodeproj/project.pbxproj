@@ -26,6 +26,7 @@
 		C236FACE1BD744240082B3E1 /* SignUpThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FACD1BD744240082B3E1 /* SignUpThreeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C236FAD01BD744300082B3E1 /* SignUpFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FACF1BD744300082B3E1 /* SignUpFourViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C236FAD21BD7443A0082B3E1 /* SignUpFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAD11BD7443A0082B3E1 /* SignUpFiveViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C2C550F01BD8714E0036A55C /* ScrollingWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C550EF1BD8714E0036A55C /* ScrollingWelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		C236FACD1BD744240082B3E1 /* SignUpThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpThreeViewController.swift; sourceTree = "<group>"; };
 		C236FACF1BD744300082B3E1 /* SignUpFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpFourViewController.swift; sourceTree = "<group>"; };
 		C236FAD11BD7443A0082B3E1 /* SignUpFiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpFiveViewController.swift; sourceTree = "<group>"; };
+		C2C550EF1BD8714E0036A55C /* ScrollingWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingWelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				C22FE6781BD71DBF0076B174 /* AppDelegate.swift */,
 				C22FE67A1BD71DBF0076B174 /* ViewController.swift */,
 				C22FE67C1BD71DBF0076B174 /* Main.storyboard */,
+				C2C550EF1BD8714E0036A55C /* ScrollingWelcomeViewController.swift */,
 				C2055FFB1BD7EA720023BF50 /* SettingsViewController.swift */,
 				C2055FFD1BD7F2820023BF50 /* PhotosViewController.swift */,
 				C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */,
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C236FAC81BD72CF90082B3E1 /* SignInRootViewController.swift in Sources */,
+				C2C550F01BD8714E0036A55C /* ScrollingWelcomeViewController.swift in Sources */,
 				C2055FFE1BD7F2820023BF50 /* PhotosViewController.swift in Sources */,
 				C2055FF61BD7E22E0023BF50 /* SignInTwoViewController.swift in Sources */,
 				C2055FF81BD7E2360023BF50 /* SignInActionSheetViewController.swift in Sources */,
