@@ -15,12 +15,26 @@ Introduction to Navigation Controllers and Tab Bar Controllers.
 - [x] User can follow the sign in flow.
   - [x] User can tap the area for "Having trouble signing in?"
   - [x] User can log out from the Settings screen.
-- [ ] Optional: Add a detail view for one of the files and implement favoriting the file.
-- [ ] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
+- Optional: Rebuild Sign In so it isn't an image.
+  - [x] Add UITextFields to login
+  - [x] Remove other login screens
+  - [x] Enable Sign In button when both inputs have something in them
+  - [x] Add UIAlertController Action Sheet and get rid of that fake screen.
+- Optional: Rebuild Sign Up so it isn't an image.
+  - [ ] Replace inputs with UITextFields
+  - [ ] Remove other sign up screens
+  - [ ] Enable Create button when all inputs have a value
+  - [ ] Change password strength indicator based on length
+  - [ ] Replace action sheet with UIAlertController
+  - [ ] Hook View Terms up to terms screen.
 - Optional: You should be able to swipe through the welcome screens instead of just tapping them.
-  - [ ] Create a custom free form view controller that is wide enough for 4 screens.
-  - [ ] Add a UIScrollView with paging enabled.
-  - [ ] Add 4 UIImageViews for the welcome screens.
+  - [x] Create a custom free form view controller that is wide enough for 3 screens.
+  - [x] Add a UIScrollView with paging enabled.
+  - [x] Add 3 UIImageViews for the welcome screens.
+  - [x] Remove the paging from the images.
+  - [x] Calculate what page you're on.
+  - [x] Add UIPageControl
+- [ ] Optional: Add a detail view for one of the files and implement favoriting the file.
 
 ## Notes
 
