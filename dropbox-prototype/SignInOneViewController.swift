@@ -39,6 +39,29 @@ class SignInOneViewController: UIViewController {
             signInActiveOverlay.alpha = 1
         }
     }
+    
+    @IBAction func tapHavingTroubleButton(sender: AnyObject) {
+        let alertController = UIAlertController(title: nil, message: nil, preferredStyle: .ActionSheet)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { (action) in
+            // ...
+        }
+        alertController.addAction(cancelAction)
+        
+        let forgotPasswordAction = UIAlertAction(title: "Forgot Password?", style: .Default) { (action) in
+            // ...
+        }
+        alertController.addAction(forgotPasswordAction)
+        
+        let singleSignOnAction = UIAlertAction(title: "Single Sign-On", style: .Default) { (action) in
+            // ...
+        }
+        alertController.addAction(singleSignOnAction)
+        
+        self.presentViewController(alertController, animated: true) {
+            // ...
+        }
+    }
     /*
     // MARK: - Navigation
 
