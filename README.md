@@ -2,7 +2,7 @@
 
 Introduction to Navigation Controllers and Tab Bar Controllers.
 
-`Time spent: 4 hours`
+`Time spent: 8 hours`
 
 ## Requirements
 
