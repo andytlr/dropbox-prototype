@@ -15,14 +15,11 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="welcome1" id="0RU-ip-jPl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RGU-eC-hBe">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <connections>
-                                    <segue destination="pF3-Tn-Vzo" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="ZbT-bg-VRx"/>
+                                    <outletCollection property="gestureRecognizers" destination="zeu-XE-Gll" appends="YES" id="Ksu-GK-vA9"/>
                                 </connections>
-                            </button>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5gk-zj-v6t">
                                 <rect key="frame" x="0.0" y="432" width="320" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -35,6 +32,11 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="zeu-XE-Gll">
+                    <connections>
+                        <segue destination="pF3-Tn-Vzo" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="4fv-1w-4F6"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="122" y="1130"/>
         </scene>
@@ -49,19 +51,27 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="welcome2" id="nk0-Xt-wG0">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TzA-DV-9vk">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <connections>
-                                    <segue destination="7dc-DK-iSY" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="Nj0-8V-O1Z"/>
+                                    <outletCollection property="gestureRecognizers" destination="D9f-5B-zEc" appends="YES" id="jml-Kt-Vr1"/>
+                                    <outletCollection property="gestureRecognizers" destination="tDd-Sf-l9L" appends="YES" id="X1g-xM-7lw"/>
                                 </connections>
-                            </button>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OmQ-qI-3ZP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="D9f-5B-zEc">
+                    <connections>
+                        <segue destination="7dc-DK-iSY" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="T6Z-Gs-GZK"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="tDd-Sf-l9L">
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="TtZ-iO-wb2"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="490" y="1130"/>
         </scene>
@@ -76,6 +86,10 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="welcome3" id="zLZ-9f-1MW">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="rK3-9N-sYM" appends="YES" id="yks-cw-cea"/>
+                                </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZLz-mO-mdy">
                                 <rect key="frame" x="30" y="382" width="260" height="44"/>
@@ -96,6 +110,11 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VhJ-Yk-bDr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="rK3-9N-sYM">
+                    <connections>
+                        <segue destination="pF3-Tn-Vzo" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="aUV-pm-EKb"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="858" y="1130"/>
         </scene>
@@ -995,7 +1014,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="YGv-7S-nOf"/>
-        <segue reference="v2L-QT-Z5L"/>
+        <segue reference="NS6-jW-tXb"/>
+        <segue reference="4fv-1w-4F6"/>
         <segue reference="Iv2-fZ-Efb"/>
         <segue reference="xDt-WZ-cfA"/>
     </inferredMetricsTieBreakers>
