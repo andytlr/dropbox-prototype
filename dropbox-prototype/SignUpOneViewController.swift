@@ -20,6 +20,49 @@ class SignUpOneViewController: UIViewController {
     
     @IBOutlet weak var passwordInput: UITextField!
     
+    @IBOutlet weak var strenghtWeak: UIImageView!
+    
+    @IBOutlet weak var strenghtSoso: UIImageView!
+    
+    @IBOutlet weak var strenghtGood: UIImageView!
+    
+    @IBOutlet weak var strenghtGreat: UIImageView!
+    
+    func hidePasswordStrength() {
+        strenghtWeak.alpha = 0
+        strenghtSoso.alpha = 0
+        strenghtGood.alpha = 0
+        strenghtGreat.alpha = 0
+    }
+    
+    func setWeak() {
+        strenghtWeak.alpha = 1
+        strenghtSoso.alpha = 0
+        strenghtGood.alpha = 0
+        strenghtGreat.alpha = 0
+    }
+    
+    func setSoso() {
+        strenghtWeak.alpha = 0
+        strenghtSoso.alpha = 1
+        strenghtGood.alpha = 0
+        strenghtGreat.alpha = 0
+    }
+    
+    func setGood() {
+        strenghtWeak.alpha = 0
+        strenghtSoso.alpha = 0
+        strenghtGood.alpha = 1
+        strenghtGreat.alpha = 0
+    }
+    
+    func setGreat() {
+        strenghtWeak.alpha = 0
+        strenghtSoso.alpha = 0
+        strenghtGood.alpha = 0
+        strenghtGreat.alpha = 1
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,6 +70,8 @@ class SignUpOneViewController: UIViewController {
         
         createButton.alpha = 0
         firstNameInput.becomeFirstResponder()
+        
+        hidePasswordStrength()
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,6 +86,21 @@ class SignUpOneViewController: UIViewController {
     @IBAction func passwordInputChanged(sender: AnyObject) {
         if firstNameInput != "" && lastNameInput != "" && emailAddressInput != "" && passwordInput != "" {
             createButton.alpha = 1
+        }
+        
+        let charactersInPassword = Int((passwordInput.text?.characters.count)!)
+        
+        switch charactersInPassword {
+        case 0:
+            hidePasswordStrength()
+        case 1...3:
+            setWeak()
+        case 4...6:
+            setSoso()
+        case 7...9:
+            setGood()
+        default:
+            setGreat()
         }
     }
     

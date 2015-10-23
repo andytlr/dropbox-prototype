@@ -13,6 +13,7 @@ class ScrollingWelcomeViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     
     @IBOutlet weak var pageControl: UIPageControl!
+    
     func updatePage() {
         let offset = scrollView.contentOffset.x / scrollView.frame.size.width
         let pageIndex = Int(offset)

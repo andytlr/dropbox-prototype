@@ -24,7 +24,7 @@ Introduction to Navigation Controllers and Tab Bar Controllers.
   - [x] Replace inputs with UITextFields
   - [x] Remove other sign up screens
   - [x] Enable Create button when all inputs have a value
-  - [ ] Change password strength indicator based on length
+  - [x] Change password strength indicator based on length
   - [x] Replace action sheet with UIAlertController
   - [x] Hook View Terms up to terms screen.
 - Optional: You should be able to swipe through the welcome screens instead of just tapping them.

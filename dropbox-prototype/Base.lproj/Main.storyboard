@@ -53,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WhE-0g-e6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="144" y="1130"/>
+            <point key="canvasLocation" x="2032" y="1119"/>
         </scene>
         <!--Scrolling Welcome View Controller-->
         <scene sceneID="rxp-Hp-Q3B">
@@ -80,7 +80,7 @@
                                 </connections>
                             </scrollView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="cLO-AQ-HMm">
-                                <rect key="frame" x="140" y="501" width="39" height="37"/>
+                                <rect key="frame" x="140" y="511" width="39" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="pageIndicatorTintColor" red="0.66274509800000003" green="0.81960784310000001" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="0.047058823529411764" green="0.40392156862745099" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
@@ -96,7 +96,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VhJ-Yk-bDr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="rK3-9N-sYM"/>
             </objects>
-            <point key="canvasLocation" x="872" y="1130"/>
+            <point key="canvasLocation" x="2760" y="1119"/>
         </scene>
         <!--Sign Up Root View Controller-->
         <scene sceneID="Dpk-oY-ygW">
@@ -132,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7s-Ld-c5k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1922" y="368"/>
+            <point key="canvasLocation" x="3810" y="357"/>
         </scene>
         <!--Sign In Root View Controller-->
         <scene sceneID="Lbu-Lh-4Bg">
@@ -167,7 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hkp-fc-g2g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1922" y="1959"/>
+            <point key="canvasLocation" x="3810" y="2024"/>
         </scene>
         <!--Sign In One View Controller-->
         <scene sceneID="Nv1-FW-1cL">
@@ -263,7 +263,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qI3-TI-23P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2316" y="1959"/>
+            <point key="canvasLocation" x="4204" y="2024"/>
         </scene>
         <!--Sign Up One View Controller-->
         <scene sceneID="nmd-Kr-HO9">
@@ -382,6 +382,22 @@
                                     <action selector="tapCreateAccount:" destination="FnV-bF-JJg" eventType="touchUpInside" id="4FZ-nE-4jS"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="1_weak" id="2DW-z4-aC2">
+                                <rect key="frame" x="0.0" y="251" width="320" height="37"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="2_soso" id="iJt-iK-75n">
+                                <rect key="frame" x="0.0" y="251" width="320" height="37"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="3_good" id="ek4-EN-FZ6">
+                                <rect key="frame" x="0.0" y="251" width="320" height="37"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="4_great" id="kSz-iW-pax">
+                                <rect key="frame" x="0.0" y="251" width="320" height="37"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -393,13 +409,17 @@
                         <outlet property="firstNameInput" destination="emP-UM-WMt" id="rol-Up-EKI"/>
                         <outlet property="lastNameInput" destination="8v5-Qj-eSS" id="VBB-oK-4tR"/>
                         <outlet property="passwordInput" destination="s4N-Ay-EOi" id="w9e-Nf-byM"/>
+                        <outlet property="strenghtGood" destination="ek4-EN-FZ6" id="Yoo-Sj-Pfd"/>
+                        <outlet property="strenghtGreat" destination="kSz-iW-pax" id="L2c-M2-ciZ"/>
+                        <outlet property="strenghtSoso" destination="iJt-iK-75n" id="D5I-75-tcg"/>
+                        <outlet property="strenghtWeak" destination="2DW-z4-aC2" id="ziX-mb-syd"/>
                         <segue destination="XNc-Z4-XI1" kind="modal" identifier="showTermsModal" id="gqz-oW-fg0"/>
                         <segue destination="hFX-yW-QOX" kind="modal" identifier="agreeToTermsLogIn" modalTransitionStyle="flipHorizontal" id="VlS-rO-CEE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bV2-gO-gDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2323" y="368"/>
+            <point key="canvasLocation" x="4211" y="357"/>
         </scene>
         <!--Sign Up Terms View Controller-->
         <scene sceneID="XWV-v5-D9R">
@@ -427,7 +447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tuv-qj-Iyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2924" y="172"/>
+            <point key="canvasLocation" x="4840" y="-455"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="NV6-3Z-XmB">
@@ -566,7 +586,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jJP-Re-VJ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1492" y="368"/>
+            <point key="canvasLocation" x="3380" y="357"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FoE-fW-U6R">
@@ -584,7 +604,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="edn-8v-pG9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1492" y="1959"/>
+            <point key="canvasLocation" x="3380" y="2024"/>
         </scene>
         <!--Files-->
         <scene sceneID="u6h-4F-gck">
@@ -871,6 +891,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1_weak" width="320" height="37"/>
+        <image name="2_soso" width="320" height="37"/>
+        <image name="3_good" width="320" height="37"/>
+        <image name="4_great" width="320" height="37"/>
         <image name="create_account" width="320" height="568"/>
         <image name="create_active" width="73" height="44"/>
         <image name="empty_favorites" width="320" height="454"/>
@@ -892,8 +916,8 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Iv2-fZ-Efb"/>
-        <segue reference="v2L-QT-Z5L"/>
         <segue reference="YGv-7S-nOf"/>
+        <segue reference="v2L-QT-Z5L"/>
+        <segue reference="Iv2-fZ-Efb"/>
     </inferredMetricsTieBreakers>
 </document>
