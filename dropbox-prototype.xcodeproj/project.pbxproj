@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C2055FF21BD747E00023BF50 /* SignUpTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FF11BD747E00023BF50 /* SignUpTermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C2055FF41BD7E2260023BF50 /* SignInOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FF31BD7E2260023BF50 /* SignInOneViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C2055FF61BD7E22E0023BF50 /* SignInTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FF51BD7E22E0023BF50 /* SignInTwoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C2055FF81BD7E2360023BF50 /* SignInActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FF71BD7E2360023BF50 /* SignInActionSheetViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C2055FFA1BD7E44D0023BF50 /* SignUpActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FF91BD7E44D0023BF50 /* SignUpActionSheetViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C2055FFC1BD7EA720023BF50 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2055FFB1BD7EA720023BF50 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -22,17 +21,12 @@
 		C236FAC61BD72CDE0082B3E1 /* SignUpRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAC51BD72CDE0082B3E1 /* SignUpRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C236FAC81BD72CF90082B3E1 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C236FACA1BD742650082B3E1 /* SignUpOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAC91BD742650082B3E1 /* SignUpOneViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C236FACC1BD744170082B3E1 /* SignUpTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FACB1BD744170082B3E1 /* SignUpTwoViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C236FACE1BD744240082B3E1 /* SignUpThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FACD1BD744240082B3E1 /* SignUpThreeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C236FAD01BD744300082B3E1 /* SignUpFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FACF1BD744300082B3E1 /* SignUpFourViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C236FAD21BD7443A0082B3E1 /* SignUpFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236FAD11BD7443A0082B3E1 /* SignUpFiveViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C2C550F01BD8714E0036A55C /* ScrollingWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C550EF1BD8714E0036A55C /* ScrollingWelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C2055FF11BD747E00023BF50 /* SignUpTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTermsViewController.swift; sourceTree = "<group>"; };
 		C2055FF31BD7E2260023BF50 /* SignInOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInOneViewController.swift; sourceTree = "<group>"; };
-		C2055FF51BD7E22E0023BF50 /* SignInTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInTwoViewController.swift; sourceTree = "<group>"; };
 		C2055FF71BD7E2360023BF50 /* SignInActionSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInActionSheetViewController.swift; sourceTree = "<group>"; };
 		C2055FF91BD7E44D0023BF50 /* SignUpActionSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpActionSheetViewController.swift; sourceTree = "<group>"; };
 		C2055FFB1BD7EA720023BF50 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -47,10 +41,6 @@
 		C236FAC51BD72CDE0082B3E1 /* SignUpRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpRootViewController.swift; path = ../SignUpRootViewController.swift; sourceTree = "<group>"; };
 		C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		C236FAC91BD742650082B3E1 /* SignUpOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpOneViewController.swift; sourceTree = "<group>"; };
-		C236FACB1BD744170082B3E1 /* SignUpTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTwoViewController.swift; sourceTree = "<group>"; };
-		C236FACD1BD744240082B3E1 /* SignUpThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpThreeViewController.swift; sourceTree = "<group>"; };
-		C236FACF1BD744300082B3E1 /* SignUpFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpFourViewController.swift; sourceTree = "<group>"; };
-		C236FAD11BD7443A0082B3E1 /* SignUpFiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpFiveViewController.swift; sourceTree = "<group>"; };
 		C2C550EF1BD8714E0036A55C /* ScrollingWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingWelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,10 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				C236FAC91BD742650082B3E1 /* SignUpOneViewController.swift */,
-				C236FACB1BD744170082B3E1 /* SignUpTwoViewController.swift */,
-				C236FACD1BD744240082B3E1 /* SignUpThreeViewController.swift */,
-				C236FACF1BD744300082B3E1 /* SignUpFourViewController.swift */,
-				C236FAD11BD7443A0082B3E1 /* SignUpFiveViewController.swift */,
 				C2055FF11BD747E00023BF50 /* SignUpTermsViewController.swift */,
 				C236FAC51BD72CDE0082B3E1 /* SignUpRootViewController.swift */,
 				C2055FF91BD7E44D0023BF50 /* SignUpActionSheetViewController.swift */,
@@ -100,7 +86,6 @@
 				C2055FFD1BD7F2820023BF50 /* PhotosViewController.swift */,
 				C236FAC71BD72CF90082B3E1 /* SignInRootViewController.swift */,
 				C2055FF31BD7E2260023BF50 /* SignInOneViewController.swift */,
-				C2055FF51BD7E22E0023BF50 /* SignInTwoViewController.swift */,
 				C2055FF71BD7E2360023BF50 /* SignInActionSheetViewController.swift */,
 				C22FE67F1BD71DBF0076B174 /* Assets.xcassets */,
 				C22FE6811BD71DBF0076B174 /* LaunchScreen.storyboard */,
@@ -183,11 +168,7 @@
 				C236FAC81BD72CF90082B3E1 /* SignInRootViewController.swift in Sources */,
 				C2C550F01BD8714E0036A55C /* ScrollingWelcomeViewController.swift in Sources */,
 				C2055FFE1BD7F2820023BF50 /* PhotosViewController.swift in Sources */,
-				C2055FF61BD7E22E0023BF50 /* SignInTwoViewController.swift in Sources */,
 				C2055FF81BD7E2360023BF50 /* SignInActionSheetViewController.swift in Sources */,
-				C236FAD21BD7443A0082B3E1 /* SignUpFiveViewController.swift in Sources */,
-				C236FACC1BD744170082B3E1 /* SignUpTwoViewController.swift in Sources */,
-				C236FAD01BD744300082B3E1 /* SignUpFourViewController.swift in Sources */,
 				C236FACA1BD742650082B3E1 /* SignUpOneViewController.swift in Sources */,
 				C22FE67B1BD71DBF0076B174 /* ViewController.swift in Sources */,
 				C2055FFC1BD7EA720023BF50 /* SettingsViewController.swift in Sources */,
@@ -196,7 +177,6 @@
 				C2055FF41BD7E2260023BF50 /* SignInOneViewController.swift in Sources */,
 				C2055FF21BD747E00023BF50 /* SignUpTermsViewController.swift in Sources */,
 				C2055FFA1BD7E44D0023BF50 /* SignUpActionSheetViewController.swift in Sources */,
-				C236FACE1BD744240082B3E1 /* SignUpThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
